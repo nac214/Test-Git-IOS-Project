@@ -14,6 +14,7 @@
 		01794D2119FEC6270037D52D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01794D2019FEC6270037D52D /* Images.xcassets */; };
 		01794D2419FEC6270037D52D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01794D2219FEC6270037D52D /* LaunchScreen.xib */; };
 		01794D3019FEC6270037D52D /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01794D2F19FEC6270037D52D /* Git_TestTests.m */; };
+		01794D3B19FEC7720037D52D /* NACTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 01794D3A19FEC7720037D52D /* NACTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		01794D2919FEC6270037D52D /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01794D2E19FEC6270037D52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01794D2F19FEC6270037D52D /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		01794D3919FEC7720037D52D /* NACTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NACTest.h; sourceTree = "<group>"; };
+		01794D3A19FEC7720037D52D /* NACTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NACTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		01794D0719FEC6270037D52D = {
 			isa = PBXGroup;
 			children = (
+				01794D3919FEC7720037D52D /* NACTest.h */,
+				01794D3A19FEC7720037D52D /* NACTest.m */,
 				01794D1219FEC6270037D52D /* Git Test */,
 				01794D2C19FEC6270037D52D /* Git TestTests */,
 				01794D1119FEC6270037D52D /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				01794D1C19FEC6270037D52D /* ViewController.m in Sources */,
 				01794D1919FEC6270037D52D /* AppDelegate.m in Sources */,
+				01794D3B19FEC7720037D52D /* NACTest.m in Sources */,
 				01794D1619FEC6270037D52D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
